@@ -4,6 +4,27 @@
       "rev": "eafadf5712e447bb813f8f7eab8012d1391fdba2",
       "src": "https://github.com/scottmckendry/cyberdream.nvim"
     },
+    "mini.icons": {
+      "rev": "fc90b3925a2a68282be06e28cfe0cbb366c75dad",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "mini.nvim": {
+      "rev": "22619434ccca787cdb34406c97f0e395d4debadc",
+      "src": "https://github.com/echasnovski/mini.nvim"
+    },
+    "mini.statusline": {
+      "rev": "591b9d553dc3604b114577bc0f6e289ea3783fc2",
+      "src": "https://github.com/nvim-mini/mini.statusline"
+    },
+    "mini.trailspace": {
+      "rev": "2b58478e717a8ea016d42f611cf7fbcf7b7c0037",
+      "src": "https://github.com/nvim-mini/mini.trailspace"
+    },
+    "nvim-treesitter": {
+      "rev": "37e52c733ada9d8d544d53a763140ef1ba404353",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter",
+      "version": "'main'"
+    },
     "oil.nvim": {
       "rev": "d3733d933833a0e59b813ecec99341527adf0c28",
       "src": "https://github.com/stevearc/oil.nvim"

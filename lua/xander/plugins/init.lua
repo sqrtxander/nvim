@@ -5,4 +5,6 @@ function _G.pack(...)
 end
 
 require("xander.plugins.colorscheme")
+require("xander.plugins.mini")
 require("xander.plugins.oil")
+require("xander.plugins.treesitter")

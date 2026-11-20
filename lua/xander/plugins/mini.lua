@@ -1,0 +1,6 @@
+pack("https://github.com/nvim-mini/mini.trailspace")
+pack("https://github.com/nvim-mini/mini.statusline")
+pack("https://github.com/nvim-mini/mini.icons")
+require("mini.trailspace").setup({ only_in_normal_buffers = true })
+require("mini.statusline").setup()
+require("mini.icons").setup()

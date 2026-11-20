@@ -1,12 +1,12 @@
 vim.lsp.enable({
-    "emmylua_ls", -- lua
-    "ty", -- python
-    "tinymist", -- typst
     "bashls", -- bash
-    "ocamllsp", -- ocaml
     "clangd", -- c
-    "ts_ls", -- typescript
+    "emmylua_ls", -- lua
     "nixd", -- nix
+    "ocamllsp", -- ocaml
+    "tinymist", -- typst
+    "ts_ls", -- typescript
+    "ty", -- python
 })
 
 vim.api.nvim_create_autocmd("LspAttach", {

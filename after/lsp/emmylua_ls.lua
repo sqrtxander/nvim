@@ -6,11 +6,10 @@ if ok then
     end
 end
 
-
 ---@type vim.lsp.Config
 return {
-    cmd = { 'emmylua_ls' },
-    filetypes = { 'lua' },
+    cmd = { "emmylua_ls" },
+    filetypes = { "lua" },
     root_markers = {
         {
             ".stylua.toml",
@@ -24,6 +23,13 @@ return {
             runtime = { version = "LuaJIT" },
             diagnostics = { globals = { "vim" } },
             workspace = { library = library },
+            format = {
+                externalTool = {
+                    program = "stylua",
+                    args = { "-", "--stdin-filepath", "${file}" },
+                    timeout = 5000,
+                },
+            },
         },
     },
 }

@@ -1,6 +1,3 @@
--- Open parent directory in current window
-vim.keymap.set("n", "<C-n>", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-
 -- remove highlights on esc or enter
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Remove highlights" })
 vim.keymap.set("n", "<Enter>", "<cmd>nohlsearch<CR>", { desc = "Remove highlights" })

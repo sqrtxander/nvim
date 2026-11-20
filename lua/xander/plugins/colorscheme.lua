@@ -1,4 +1,5 @@
 pack("https://github.com/scottmckendry/cyberdream.nvim")
+
 require("cyberdream").setup({
     variant = "default",
     transparent = true,

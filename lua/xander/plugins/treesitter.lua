@@ -2,7 +2,10 @@ pack({ src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "ma
 
 vim.api.nvim_create_autocmd("PackChanged", {
     callback = function(event)
-        if event.data.spec.name == "nvim-treesitter" and (event.data.kind == "install" or event.data.kind == "update") then
+        if
+            event.data.spec.name == "nvim-treesitter"
+            and (event.data.kind == "install" or event.data.kind == "update")
+        then
             if not event.data.active then
                 vim.cmd.packadd("nvim-treesitter")
             end

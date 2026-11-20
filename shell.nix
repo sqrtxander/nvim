@@ -1,6 +1,6 @@
 {pkgs ? import <nixpkgs> {}}:
 pkgs.mkShell {
-  packages = [
-    pkgs.lua-language-server
+  packages = with pkgs; [
+    emmylua-ls
   ];
 }

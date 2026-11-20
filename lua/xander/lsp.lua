@@ -1,5 +1,5 @@
 vim.lsp.enable({
-    "lua_ls", -- lua
+    "emmylua_ls", -- lua
     "ty", -- python
     "tinymist", -- typst
     "bashls", -- bash

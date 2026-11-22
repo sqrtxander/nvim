@@ -25,10 +25,6 @@
       "rev": "c7088fc64948f9c7d0dcd7075e12ab6f3fc62671",
       "src": "https://github.com/nvim-mini/mini.input"
     },
-    "mini.nvim": {
-      "rev": "22619434ccca787cdb34406c97f0e395d4debadc",
-      "src": "https://github.com/echasnovski/mini.nvim"
-    },
     "mini.statusline": {
       "rev": "591b9d553dc3604b114577bc0f6e289ea3783fc2",
       "src": "https://github.com/nvim-mini/mini.statusline"
@@ -45,6 +41,10 @@
     "oil.nvim": {
       "rev": "d3733d933833a0e59b813ecec99341527adf0c28",
       "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "typst-preview.nvim": {
+      "rev": "b231e0e318378782b210ab57aaf7d81d3b0eea12",
+      "src": "https://github.com/chomosuke/typst-preview.nvim"
     }
   }
 }

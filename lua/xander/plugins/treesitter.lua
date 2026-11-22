@@ -1,4 +1,7 @@
-pack({ src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" })
+pack({
+    src = "https://github.com/nvim-treesitter/nvim-treesitter",
+    version = "main",
+})
 
 vim.api.nvim_create_autocmd("PackChanged", {
     callback = function(event)

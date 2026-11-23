@@ -19,9 +19,6 @@
     packages = forAllSystems (
       pkgs: let
         pkgList = with pkgs; [
-          # c
-          clangd
-
           # bash
           bash-language-server
           beautysh

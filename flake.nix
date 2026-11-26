@@ -42,6 +42,7 @@
           # typst
           tinymist
           typstyle
+          websocat
 
           # other
           prettierd

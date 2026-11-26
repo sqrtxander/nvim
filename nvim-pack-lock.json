@@ -14,11 +14,11 @@
       "src": "https://github.com/scottmckendry/cyberdream.nvim"
     },
     "fzf-lua": {
-      "rev": "a8312697c30b4d3b110fa3dc56e3699107aed9a0",
+      "rev": "a3b5e6bebcc604d0286fffa1c4eb05b066a2a198",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "mini.icons": {
-      "rev": "fc90b3925a2a68282be06e28cfe0cbb366c75dad",
+      "rev": "5d58117d176c133f4cb5585ec8cb3450881c89a0",
       "src": "https://github.com/nvim-mini/mini.icons"
     },
     "mini.input": {
@@ -26,15 +26,15 @@
       "src": "https://github.com/nvim-mini/mini.input"
     },
     "mini.statusline": {
-      "rev": "591b9d553dc3604b114577bc0f6e289ea3783fc2",
+      "rev": "5b71f198cf3a2039d1786362274316841379b665",
       "src": "https://github.com/nvim-mini/mini.statusline"
     },
     "mini.trailspace": {
-      "rev": "2b58478e717a8ea016d42f611cf7fbcf7b7c0037",
+      "rev": "50b96b876a3d599d7d61696ba947ac02f890ab74",
       "src": "https://github.com/nvim-mini/mini.trailspace"
     },
     "nvim-treesitter": {
-      "rev": "37e52c733ada9d8d544d53a763140ef1ba404353",
+      "rev": "52773f0d13a0c11d0c3ef33c14ab6ecc1c17148b",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter",
       "version": "'main'"
     },
